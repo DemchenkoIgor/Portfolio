@@ -1,0 +1,113 @@
+/*
+  text-shadow: 1px 1px 0px #d8b045;
+  -webkit-box-shadow: #ffc001 0px 1px 1px;
+  -moz-box-shadow: #ffc001 0px 1px 1px;
+  box-shadow: #ffc001 0px 1px 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  behavior: url("/css/PIE.htc");
+*/
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+  default style
+++++++++++++++++++++++++++++++++++++++++++++*/
+* {
+	outline: none !important;
+}
+html {
+	height:100%;
+	}
+body {
+	min-height:100%;
+	}
+
+.container.menu{
+	background-color:rgb(255, 173, 0);
+	}
+
+.form{
+	background-color:rgb(255, 173, 0);
+	}
+img.footer1{
+	display: block;
+	float: left;
+	}
+p.red, span.red{
+	color:#FF9900;
+	}
+span.green{
+	color:#99CC00;
+	}
+	
+div.line.footer11{
+	background-color:#f8f3e9;
+	padding:10px 0px;
+	}	
+	
+div.line.footer11 div.line2{
+	background-color:#ffffff;
+	border-color:#eeeeee;
+	border-radius:10px;
+	}
+	
+div.footer11{
+	padding:15px 0px;
+	background-color:#310000;
+	padding-left:5%;
+	
+	}
+
+.line22{
+	margin:30px 0px;
+	}
+	
+.foot1{
+	background:url(../i/footer.jpg)  no-repeat;
+	width: 20%;
+	height:180px;
+	background-size:contain;
+	padding-top:90px;
+	color:#99FF66;
+	box-sizing:content-box;
+	}
+.foot2{
+	background:url(../i/footer2.jpg) no-repeat;
+	width: 20%;
+	height:180px;
+	background-size:contain;
+	padding-top:90px;
+	color:#99FF66;
+	box-sizing:content-box;
+	}	
+.foot3{
+	background:url(../i/footer3.jpg) no-repeat;
+	width: 20%;
+	height:180px;
+	background-size:contain;
+	padding-top:90px;
+	color:#99FF66;
+	box-sizing:content-box;
+	}	
+.foot4{
+	background:url(../i/footer4.jpg) no-repeat;
+	width: 20%;
+	height:180px;
+	background-size:contain;
+	padding-top:90px;
+	color:#99FF66;
+	box-sizing:content-box;
+	}	
+.white{	
+	color:#ffffff;
+	}
+
+.copi{
+	background-color:#ffad00;
+	text-align:center;
+	}	

@@ -1,0 +1,18 @@
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+* {
+	outline: none !important;
+}
+html {height:100%;
+}
+body {min-height:100%;
+}
+
+.nav.nav-pills{
+	background-color:#ccc;
+}
+

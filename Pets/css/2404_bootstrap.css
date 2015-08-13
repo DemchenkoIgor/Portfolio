@@ -1,0 +1,24 @@
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+* {
+	outline: none !important;
+}
+html {height:100%;
+}
+body {min-height:100%;
+}
+
+#mega{
+	height:200px;
+	background-color:#eeeeee;
+	}
+	
+.carousel-inner , .carousel-inner .item{
+	height:100%;
+	}
+
+

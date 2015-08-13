@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TIRE RACK</title>
+
+    <link href="js/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="ui/jquery-ui.css" rel="stylesheet">
+    <link href="ui/jquery-ui.structure.css" rel="stylesheet"> 
+    <link href="ui/jquery-ui.theme.css" rel="stylesheet">        
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet" type="text/css">
+    <link href="css/icons.css" rel="stylesheet">    
+    <link href="css/style.css" rel="stylesheet"> 
+    
+    <!-- add this style if want response style for pad and phone -->
+    <link href="css/response.css" rel="stylesheet"> 
+    
+    <!-- this style for developer web-site, not edit other style if you need change -->
+    <link href="css/developer.css" rel="stylesheet">          
+    <script src="js/jquery.js"></script>
+    <script src="js/imagesloaded.js"></script>     
+    <script src="js/jquery.easing-1.3.js"></script>   
+    <script src="js/jquery.mousewheel.js"></script>         
+    <script src="js/fancybox/jquery.fancybox.js"></script>       
+    <script src="ui/jquery-ui.min.js"></script>         
+    <script src="bootstrap/js/bootstrap.min.js"></script>             
+    <script src="js/script.js"></script>    
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>  
+<!--------------------------------------------------------------------------------------------
+	                            HEADER
+--------------------------------------------------------------------------------------------->
+<!-------------------------------menu1------------------------------------------------------->
+
+     <div class="container-fluid black">
+        <div class="container" id="menu1">
+	        <div class="row">
+		        <div class="col-xs-3 col-md-4" id="menu1lft">
+				    <a href="#">CONTACT US</a>
+		        </div>
+		        <div class="col-xs-8 col-sm-8 col-md-4" id="menu1cntr">
+		        	<form method="get" class="form-horizontal">
+				    	 <input type="text" value="SEARH" placeholder="SEARH">
+						 <button class="btn" id="btn_search"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+		        </div>
+		        <div class="col-xs-12 col-sm-12 col-md-4" id="menu1rght">
+					    <a class="col-menu1" href="#">YOUR ACCOUNT</a>
+						<a class="col-menu1" href="#">SING IN</a>
+						<div class="dropdown" id="menu_language">
+				    		<a id="a_menu_language" class="col-menu1 dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">ENGLISH <span class="glyphicon glyphicon-chevron-down small_caps"></span></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="a_menu_language">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Russian</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">German</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Italian</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">France</a></li>
+  							</ul>
+  						</div>
+  						<div class="dropdown" id="menu_valuta">
+  							<a id="a_menu_valuta" class="col-menu1 dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">CURRENCY : <span>USD </span><span class="glyphicon glyphicon-chevron-down small_caps"></span> </a>
+  							<ul class="dropdown-menu" role="menu" aria-labelledby="a_menu_valuta">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">RUB</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">EUR</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">FUNT</a></li>
+  							</ul>
+				    	</div>
+						<a class="col-menu1" href="#"><span class="glyphicon glyphicon-shopping-cart korzina"></span> 0</a>
+				</div>
+		    </div>
+	    </div>
+	 </div>
+<!-------------------------------menu2------------------------------------------------------->
+
+	 <div class="container-fluid orang">
+        <div class="container">
+	        <div class="row">
+		    	<div class="col-md-3 logo"><h1>TIRE RACK</h1></div>
+				<div class="col-sm-12 col-md-6 col-md-offset-3">
+			     	<div class="row">
+				     	<div id="menu2">
+							<a class="active col-md-3 navbar-link" href="#">WINNER TYRES</a>
+							<a class="active col-md-3 navbar-link" href="#">SPORT TYRES</a>
+							<a class="active col-md-3 navbar-link" href="#">SUMME TYRES</a>
+							<a class="active col-md-3 navbar-link" href="#">CUSTOM WHEELS</a>
+				     	</div>
+					</div>
+			    </div>
+			</div>
+        </div>
+	 </div>
+<!--------------------------------SLYDER------------------------------------------------------>
+
+	 <div class="container-fluid" id="header_slyder">
+		 
+<!--------------------------------menu3------------------------------------------------------->
+		<div id="oboloshka_menu3">
+			<div class="container" id="menu3">
+		     	<div class="row">
+			    	<ul class="nav">
+						<li id="a_menu3_1" class="active col-xs-6 col-sm-4 col-md-2 black">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">EXEPT EUR</a>
+							<ul class="dropdown-menu" id="menu3_1" role="menu" aria-labelledby="a_menu3_1">
+								<li><a href="#">LOREM IPSUM DOLOR</a></li>
+								<li><a href="#">CONSE CTETUR</a></li>
+								<li><a href="#">EIUSMOD TEMPOR</a></li>
+								<li><a href="#">INCIDIDUNT</a></li>
+								<li><a href="#">UT LABORE</a></li>
+								<li><a href="#">DOLORE MAGNA</a></li>
+							</ul>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2 black">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">SINT OCCAFCAT</a>
+							<ul class="dropdown-menu" id="menu3_2" role="menu" aria-labelledby="a_menu3_2">
+								<li><a href="#">EIUSMOD TEMPOR</a></li>
+								<li><a href="#">INCIDIDUNT</a></li>
+								<li><a href="#">UT LABORE</a></li>
+								<li><a href="#">DOLORE MAGNA</a></li>
+							</ul>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2 black">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">CUPIDATAT</a>
+							<ul class="dropdown-menu" id="menu3_3" role="menu" aria-labelledby="a_menu3_3">
+								<li><a href="#">CONSE CTETUR</a></li>
+								<li><a href="#">EIUSMOD TEMPOR</a></li>
+								 <li><a href="#">INCIDIDUNT</a></li>
+								<li><a href="#">UT LABORE</a></li>
+								<li><a href="#">DOLORE MAGNA</a></li>
+							</ul>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2 black">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">PROIDENT</a>
+							<ul class="dropdown-menu" id="menu3_4" role="menu" aria-labelledby="a_menu3_4">
+								<li><a href="#">INCIDIDUNT</a></li>
+								<li><a href="#">UT LABORE</a></li>
+								<li><a href="#">DOLORE MAGNA</a></li>
+							</ul>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2 black">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">SUNT IN CULPA</a>
+							<ul class="dropdown-menu" id="menu3_5" role="menu" aria-labelledby="a_menu3_5">
+								<li><a href="#">EIUSMOD TEMPOR</a></li>
+								<li><a href="#">INCIDIDUNT</a></li>
+								<li><a href="#">UT LABORE</a></li>
+								<li><a href="#">DOLORE MAGNA</a></li>
+								<li><a href="#">LOREM IPSUM DOLOR</a></li>
+								<li><a href="#">CONSE CTETUR</a></li>
+							</ul>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2 black">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">QUI OFFICIA</a>
+							<ul class="dropdown-menu" id="menu3_6" role="menu" aria-labelledby="a_menu3_6">
+								<li><a href="#">CONSE CTETUR</a></li>
+								<li><a href="#">EIUSMOD TEMPOR</a></li>
+								<li><a href="#">INCIDIDUNT</a></li>
+								<li><a href="#">UT LABORE</a></li>
+								<li><a href="#">DOLORE MAGNA</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+	    	</div>
+	    	<!--MENU3-->
+<!-------------------------------carusel------------------------------------------------------->
+		</div> 
+		<div class="carousel slide" id="slyder" data-ride="carousel">
+				<div class="carousel-inner slyder">
+				<div class="item active foto1">
+					<div class="slogan">
+						<p>YOUR WHEELS<br>ARE IN<br>GOOD HANDS!</p> 
+					</div>
+				</div>
+				<div class="item foto2">
+					<div class="slogan">
+						<p>FIND<br>WHEELS & TYPES<br> FOR ALL VEHICLE TYPES</p> 
+					</div>
+				</div>
+				<div class="item foto3">
+					<div class="slogan">
+						<p>CUSTOM WHEELS & RIMS<br>IT'S ALL ABOUT<br> AND PERFORMANCE</p> 
+					</div>
+				</div>
+			</div>
+			<a href="#slyder" class="navigat-left" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a href="#slyder" class="navigat-right" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			
+						
+		</div>
+		
+	 </div>	
+<!-------------------------------POD_SLYDER--------------------------------------------------->	 
+	 
+	 <div class="container-fluid" id="pod_slyder">
+        <div class="container">
+	        <div class="row">
+		        <div class="col-xs-6 col-md-6 text-center" id="pod_slyder1">
+			        <a href="#">
+				        <div class="pod_slyder_inner">
+					        <p class="menu4_nazv">WINTER<br>TYRES</p>
+							<p class="menu4_text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod 
+												<br>tempor incididunt ut lobore et dolor</p>
+						</div>
+			        </a>
+			    </div>
+		        <div class="col-xs-6 col-md-6 text-center" id="pod_slyder2">
+			        <a href="#">
+				        <div class="pod_slyder_inner">
+					        <p class="menu4_nazv">SUMMER<br>TYRES</p>
+							<p class="menu4_text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod 
+												<br>tempor incididunt ut lobore et dolor</p>
+				        </div>
+			        </a>
+				</div>
+		        <div class="col-xs-6 col-md-6 text-center" id="pod_slyder3">
+			        <a href="#">
+				        <div class="pod_slyder_inner">
+					        <p class="menu4_nazv">SPORT<br>TYRES</p>
+							<p class="menu4_text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod 
+												<br>tempor incididunt ut lobore et dolor</p>
+				        </div>
+			        </a>
+			    </div>
+		        <div class="col-xs-6 col-md-6 text-center" id="pod_slyder4">
+			        <a href="#">
+				        <div class="pod_slyder_inner">
+					        <p class="menu4_nazv">CUSTOM<br>WHEELS</p>
+							<p class="menu4_text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod 
+												<br>tempor incididunt ut lobore et dolor</p>
+				        </div>
+			        </a>
+			    </div>
+		    </div>
+	    </div>
+	 </div>
+<!--------------------------------------------------------------------------------------------
+	                            MAIN
+--------------------------------------------------------------------------------------------->
+
+<!-------------------------------menu5------------------------------------------------------->
+
+	<div class="container orang" id="menu5">
+		        <div class="row">
+			        <ul class="nav">
+						<li class="active col-xs-4 col-md-2 col-md-offset-3"><a href="#">POPULAR</a>	</li>
+						<li class="col-xs-4 col-md-2"><a href="#">NEW ARRIVALS</a></li>
+						<li class="col-xs-4 col-md-2"><a href="#">BEST SELLERS</a></li>
+					</ul>
+			    </div>
+		    </div>
+
+<!-------------------------------Gallery---------------------------------------------------->
+		    
+	<div class="container">
+		<div class="row" id="gallery">
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s1">SALE</div>
+	 						<div class="new gray" id="n1">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p1"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c1" class="cena">$58.89</span>
+						    <span id="c_old1" class="cena_old">$72.89</span>
+						    <span id="c_s1" class="cena_sale">-20%</span>
+						    <form name="f_gallery1" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s2">SALE</div>
+	 						<div class="new gray" id="n2">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p2"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c2" class="cena">$58.89</span>
+						    <span id="c_old2" class="cena_old">$72.89</span>
+						    <span id="c_s2" class="cena_sale">-20%</span>
+						    <form name="f_gallery2" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s3">SALE</div>
+	 						<div class="new gray" id="n3">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p3"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c3" class="cena">$58.89</span>
+						    <span id="c_old3" class="cena_old">$72.89</span>
+						    <span id="c_s3" class="cena_sale">-20%</span>
+						    <form name="f_gallery3" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s4">SALE</div>
+	 						<div class="new gray" id="n4">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p4"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c4" class="cena">$58.89</span>
+						    <span id="c_old4" class="cena_old">$72.89</span>
+						    <span id="c_s4" class="cena_sale">-20%</span>
+						    <form name="f_gallery4" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s5">SALE</div>
+	 						<div class="new gray" id="n5">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p5"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c5" class="cena">$58.89</span>
+						    <span id="c_old5" class="cena_old">$72.89</span>
+						    <span id="c_s5" class="cena_sale">-20%</span>
+						    <form name="f_gallery5" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s6">SALE</div>
+	 						<div class="new gray" id="n6">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p6"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c6" class="cena">$58.89</span>
+						    <span id="c_old6" class="cena_old">$72.89</span>
+						    <span id="c_s6" class="cena_sale">-20%</span>
+						    <form name="f_gallery6" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s7">SALE</div>
+	 						<div class="new gray" id="n7">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p7"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c7" class="cena">$58.89</span>
+						    <span id="c_old7" class="cena_old">$72.89</span>
+						    <span id="c_s7" class="cena_sale">-20%</span>
+						    <form name="f_gallery7" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+			        <div class="col-sm-6 col-md-3 gallery-box">
+				        <div class="birka">
+	 				        <div class="sale orang" id="s8">SALE</div>
+	 						<div class="new gray" id="n8">NEW</div>
+				        </div>
+				        <div class="gallery-picture" id="p8"></div>
+					    <div class="gallery-podpis">
+						    <p>EXCEPTEUR SINT OCCAEACAT CUPI-<br>
+							   DATAT NON PROIDENT
+						    </p>
+						    <span id="c8" class="cena">$58.89</span>
+						    <span id="c_old8" class="cena_old">$72.89</span>
+						    <span id="c_s8" class="cena_sale">-20%</span>
+						    <form name="f_gallery8" method="get">
+							    <input class="btn_gallery" type="button" value="ADD TO CART">
+						    </form>
+						    <a href="#">MORE</a>
+					    </div>
+			        </div>
+		</div>
+	</div>
+<!--------------------------------------------------------------------------------------------
+	                            FOOTER
+--------------------------------------------------------------------------------------------->
+
+<!-------------------------------Nad-footer-------------------------------------------------->
+
+ 	<div class="container-fluid" id="nad_footer">
+        <div class="container">
+	        <div class="row">
+		        <div class="col-xs-12 col-ms-12 col-md-4" id="nad_footer1">
+			        <a href="#">
+				        <div class="nad_footer_content">
+					        <h2>FOLLOW US<br>ON FACEBOOK</h2>
+					        <div id="facebook_link"></div>						
+					    </div>
+			        </a>
+			    </div>
+		        <div class="col-xs-12 col-sm-12 col-md-4" id="nad_footer2">
+			        <a href="#">
+				        <div class="nad_footer_content">
+					        <h2>CUSTOM BLOCK 1</h2>
+					        <p>LOREM IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR</p><br>
+					        <p class="spandart">LOREM IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS.</p><br>
+					        <p>IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR</p><br>
+					        <p class="spandart">DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS.</p>
+				        </div>
+			        </a>
+				</div>
+		        <div class="col-xs-12 col-sm-12 col-md-4" id="nad_footer3">
+			        <a href="#">
+				        <div class="nad_footer_content">
+					        <h2>CUSTOM BLOCK 2</h2>
+					        	<ul>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> LOREM IPSUM DOLOR SIT AMET</p> </li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> CONSE CTETUR ADIPISICING</p></li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> ELIT SED DO EIUSMOD TEMPOR</p></li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> INCIDIDUNT UT LABORE</p></li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> ET DOLORE MAGNA ALIQUA</p></li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> UT ENIM AD MINIM VENIAM</p></li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> QUIS NOSTRUD EXERCITATION</p></li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> ULLAMCO LABORIS NISI</p></li>
+						        	<li><span class="glyphicon glyphicon-ok"></span><p class="li_list"> UT ALIQUIP EX EA COMMODO</p></li>
+					        	</ul>
+					        
+				        </div>
+			        </a>
+			    </div>
+		    </div>
+	    </div>
+	 </div>
+ 
+ <!-------------------------------Footer----------------------------------------------------->
+ 
+	<div class="container-fluid orang" id="footer">
+        <div class="container">
+	        <div class="row">
+		        <div class="col-sm-6 col-md-2" id="footer1">
+			        <a class="navbar-link text-left zagolovok" href="#">CATEGORIES</a>
+			        <ul class="nav">
+						<li class="navbar-link"><a href="#">VESTIBULUM IACULIS</a></li>
+						<li class="navbar-link"><a href="#">LACINIA EST</a></li>
+						<li class="navbar-link"><a href="#">PROIN DICTUM</a></li>
+						<li class="navbar-link"><a href="#">ELEMENTUM VELIT</a></li>
+						<li class="navbar-link"><a href="#">CONCEQUAT ANTE</a></li>
+						<li class="navbar-link"><a href="#">LOREM IPSUM DOLOR</a></li>
+						<li class="navbar-link"><a href="#">SIT AMET</a>
+					</ul>
+			    </div>
+		        <div class= "col-sm-6 col-md-2" id="footer2">
+			    	<a class="navbar-link text-left zagolovok" href="#">INFORMATION</a>
+			        <ul class="nav">
+						<li class="navbar-link"><a href="#">SPECIALS</a></li>
+						<li class="navbar-link"><a href="#">NEW PRODUCTS</a></li>
+						<li class="navbar-link"><a href="#">OUR STORES</a></li>
+						<li class="navbar-link"><a href="#">CONTACT US</a></li>
+						<li class="navbar-link"><a href="#">CONCEQUAT ANTE</a></li>
+						<li class="navbar-link"><a href="#">TERMS AND CONDITIONS OF USE</a></li>
+						<li class="navbar-link"><a href="#">ABOUT US</a>
+						<li class="navbar-link"><a href="#">SITEMAP</a>
+					</ul>
+				</div>
+		        <div class="col-md-2" id="footer3">
+			        <a class="navbar-link text-left zagolovok" href="#">MY ACCOUNT</a>
+			        <ul class="nav">
+						<li class="navbar-link"><a href="#">MY ORDERS</a></li>
+						<li class="navbar-link"><a href="#">MY MERCHANDISE RETURNS</a></li>
+						<li class="navbar-link"><a href="#">MY CREDIT SLIPS</a></li>
+						<li class="navbar-link"><a href="#">MY ADDRESSES</a></li>
+						<li class="navbar-link"><a href="#">MY PERSONAL INFO</a></li>
+					</ul>
+			    </div>
+			    <div class="col-md-4 col-md-offset-2" id="footer4">
+			       <a class="navbar-link text-left zagolovok" href="#">STORE INFORMATION</a>
+					    <ul>
+							<li>
+								<span class="icon-ico1 myico"></span>
+								<p class="li_list"> MY COMPANY, 42 AVENUE DES CHAMPS ELYSÉES
+								                    <br>75000 PARIS FRANCE
+								</p> 
+							</li>
+						   	<li>
+						   		<span class="glyphicon glyphicon-earphone myico"></span>
+						   		<p class="li_list"> CALL US NOW: 
+							   						<br><span id="tel"> 0123-456-789</span>
+							   	</p>
+							</li>
+						   	<li>
+						   		<span class="icon-ico2 myico" id="konv"></span> 
+						   		<p class="li_list">
+							   		<span id="e-mail"> EMAIL: INFO@DEMOLINK.ORG</span>
+							   	</p>
+							</li>
+					   	</ul>			       
+				</div>
+			</div>
+		</div>
+	    <div class="container-fluid" id="pod_footer">
+          А. Свиридюк © 2015
+        </div>
+	</div>
+	<div class="container-fluid" id="podval">Designed by</div>
+  </body>
+</html>

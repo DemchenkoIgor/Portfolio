@@ -1,0 +1,28 @@
+
+@font-face {
+	font-family: 'LatoLight';
+	src: url('fonts/LatoLight.eot');
+	src: local('☺'), url('fonts/LatoLight.woff') format('woff'), url('fonts/LatoLight.ttf') format('truetype'), url('fonts/LatoLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	line-height: 110%;
+	
+}
+@font-face {
+	font-family: 'Conv_LatoBold';
+	src: url('fonts/LatoBold.eot');
+	src: local('☺'), url('fonts/LatoBold.woff') format('woff'), url('fonts/LatoBold.ttf') format('truetype'), url('fonts/LatoBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-b3eqv6');
+	src:url('fonts/icomoon.eot?#iefix-b3eqv6') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-b3eqv6') format('woff'),
+		url('fonts/icomoon.ttf?-b3eqv6') format('truetype'),
+		url('fonts/icomoon.svg?-b3eqv6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

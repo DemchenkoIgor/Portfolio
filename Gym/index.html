@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"> <!-- Кодировка текста -->
+		<meta name="description" content="Название сайта"> <!-- Описание названия сайта -->
+		<meta name="keywords" content="Ключевые слова"> <!-- Перечень ключевых слов через запятую -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Определяет ширину страницы и задает начальный масштаб -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Режим отображения страниц в браузерах IE8+, использует последний доступный стандартный режим отображения -->
+		
+		<title>Сайт спортзала</title> <!-- Заголовок страницы -->
+		
+		<script type="text/javascript" src="js/jquery.js"></script>	<!-- Подключение файла с библиотекой jquery -->
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>	<!-- Подключение файла со скриптами Bootstrap -->
+		<script type="text/javascript" src="js/script.js"></script>	<!-- Подключение файла со скриптами -->
+		
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet"> <!-- Подключение файла со стилями Bootstrap -->
+		<link href="style/style.css" rel="stylesheet"> <!-- Подключение файла с внешними стилями -->
+		<link href="style/icons.css" rel="stylesheet"> <!-- Подключение файла с внешними стилями -->
+		
+		<!--[if условие]> HTML код или описание стиля <![endif]--> 
+	</head>
+	
+	<body>
+		<header>                                                                                                                  <!-- Header -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-0 col-lg-6"> 
+						<div class="headerBoxText">
+							<h1>perfect fitness PSD</h1>
+							<h3>best choise for your site</h3>
+							<p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<div class="row">
+								<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+									<a class="headerBoxButton" href="#">read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="arrowDown">
+				<a href="#anchor">
+					<img src="images/arrowdown.png" alt="Стрелка 'Вниз'">
+				</a>
+			</div>
+		</header>                            <!-- Конец хедера -->
+		
+		<div class="container-fluid socialNetworks">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">                                                            <!-- Phone number -->
+						<div class="phoneNumber">
+							<span class="glyphicon glyphicon-earphone"></span>
+							<span class="">1-900-342-9876</span>
+							<span id="anchor"></span>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">                                                            <!-- Social icons -->
+						<div class="socialIcons">	
+							<a href="#"><span class="icon-feed2"></span></a>
+							<a href="#"><span class="icon-instagram"></span></a>
+							<a href="#"><span class="icon-tumblr2"></span></a>
+							<a href="#"><span class="icon-google-plus2"></span></a>
+							<a href="#"><span class="icon-pinterest2"></span></a>
+							<a href="#"><span class="icon-twitter2"></span></a>
+							<a href="#"><span class="icon-facebook2"></span></a>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+		
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-10 col-sm-10 col-md-2 col-lg-2">
+						<div class="gymLogo">
+							<img src="images/logo.png" alt="Логотип">
+						</div>
+					</div>
+					<div class="col-xs-2 col-sm-2 col-md-10 col-lg-10">                                                           <!-- Навигационное меню -->
+						<div class="topNavigation pull-right">
+							<ul class="nav nav-pills visible-lg">
+								<li role="presentation" id="topNavFirst">
+									<a href="#">home</a>
+								</li>
+								<li role="presentation">
+									<a href="#">about</a>
+								</li>
+								<li role="presentation">
+									<a href="#">trainers</a>
+								</li>
+								<li role="presentation">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span> classes</a>
+									<ul class="dropdown-menu" role="menu">
+										<span id="triangle-up"></span>
+										<li>
+											<a href="#"><span class="glyphicon glyphicon-menu-right"></span> cardio fitness</a>
+										</li>
+										<li>
+											<a href="#"><span class="glyphicon glyphicon-menu-right"></span> pilates</a>
+										</li>
+										<li>
+											<a href="#"><span class="glyphicon glyphicon-menu-right"></span> aerobics</a>
+										</li>
+									</ul>
+								</li>
+								<li role="presentation">
+									<a href="#">blog</a>
+								</li>
+								<li role="presentation">
+									<a href="#">pricing</a>
+								</li>
+								<li role="presentation">
+									<a href="#">contacts</a>
+								</li>
+							</ul>
+							
+							<ul class="nav nav-pills visible-md">
+								<li role="presentation" id="topNavFirst">
+									<a href="#">home</a>
+								</li>
+								<li role="presentation">
+									<a href="#">about</a>
+								</li>
+								<li role="presentation">
+									<a href="#">trainers</a>
+								</li>
+								<li role="presentation">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span> classes</a>
+									<ul class="dropdown-menu" role="menu">
+										<span id="triangle-up"></span>
+										<li>
+											<a href="#"><span class="glyphicon glyphicon-menu-right"></span> cardio fitness</a>
+										</li>
+										<li>
+											<a href="#"><span class="glyphicon glyphicon-menu-right"></span> pilates</a>
+										</li>
+										<li>
+											<a href="#"><span class="glyphicon glyphicon-menu-right"></span> aerobics</a>
+										</li>
+									</ul>
+								</li>
+								<li role="presentation">
+									<a href="#">blog</a>
+								</li>
+								<li role="presentation">
+									<a href="#">pricing</a>
+								</li>
+								<li role="presentation">
+									<a href="#">contacts</a>
+								</li>
+							</ul>
+							
+							<ul class="nav nav-pills visible-sm">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+										<span id="burgerIcon" class="glyphicon glyphicon-menu-hamburger"></span>
+									</a>
+									<ul class="dropdown-menu pull-right">
+										<li>
+											<a href="#">home</a>
+										</li>
+										<li>
+											<a href="#">about</a>
+										</li>
+										<li>
+											<a href="#">trainers</a>
+										</li>
+										<li>
+											<a href="#">classes</a>
+										</li>
+										<li>
+											<a href="#">blog</a>
+										</li>
+										<li>
+											<a href="#">pricing</a>
+										</li>
+										<li>
+											<a href="#">contacts</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							
+							<ul class="nav nav-pills visible-xs">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+										<span id="burgerIcon" class="glyphicon glyphicon-menu-hamburger"></span>
+									</a>
+									<ul class="dropdown-menu pull-right">
+										<li>
+											<a href="#">home</a>
+										</li>
+										<li>
+											<a href="#">about</a>
+										</li>
+										<li>
+											<a href="#">trainers</a>
+										</li>
+										<li>
+											<a href="#">classes</a>
+										</li>
+										<li>
+											<a href="#">blog</a>
+										</li>
+										<li>
+											<a href="#">pricing</a>
+										</li>
+										<li>
+											<a href="#">contacts</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>     <!-- Конец навигационного меню -->
+				</div>		
+			</div>
+		</nav>        
+		
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">                                                                                                 <!-- Intro -->
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-6 col-lg-5 col-lg-offset-6">
+						<div class="intro">
+							<span>Lorem ipsum dolorsit!</span>
+							<span>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</span>
+						</div>
+					</div>
+				</div>      <!-- Конец Intro -->
+				
+				<div class="row">                                                                                                
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- Spinning -->
+						<div class="liveGroup">
+							<span>Live
+								<span>spinning</span>
+							</span>
+							<span>room 2</span>
+							<div>
+								<img src="images/spin.jpg" alt="spining">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- Gym -->
+						<div class="liveGroup">
+							<span>Live
+								<span>gym</span>
+							</span>
+							<span>room 1</span>
+							<div>
+								<img src="images/gym.jpg" alt="gym">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- Pilates -->
+						<div class="liveGroup">
+							<span>Live
+								<span>pilates</span>
+							</span>
+							<span>room 4</span>
+							<div>
+								<img src="images/pilates.jpg" alt="pilates">
+							</div>
+						</div>
+					</div>
+				</div>         
+				
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-0 col-lg-8">             <!-- All classes -->
+						<div class="allClassesBlock">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="blockHeaderTitle">
+										<span>all classes</span>
+									</div>
+								</div>
+							</div>	
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="allClassesContent visible-md visible-lg">
+										<div class="row">
+											<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+												<div class="allClassesContentLeft">
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> cardio fitness</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> spinning</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> pilates</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> boxing</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+												</div>
+											</div>
+											<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+												<div class="allClassesContentRight">
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> aerobics</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> kik boxing</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> crossfit</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> yoga</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+												</div>
+												<div class="marginBetvinBlocks"></div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="allClassesContent visible-xs visible-sm">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+												<div class="allClassesContentWrap">
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> cardio fitness</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> spinning</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> pilates</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> boxing</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> aerobics</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> kik boxing</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> crossfit</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+													<div class="allClassesContentStyle">
+														<span><span class="glyphicon glyphicon-time"></span> yoga</span>
+														<span>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Timetable"><span class="glyphicon glyphicon-calendar"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Send to"><span class="glyphicon glyphicon-envelope"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Like it"><span class="glyphicon glyphicon-heart-empty"></span></a>
+															<a href="#" data-toggle="tooltip" data-placement="top" title="Share"><span class="glyphicon glyphicon-share-alt"></span></a>
+														</span>
+														<div class="clearBlock"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>       
+						</div>              <!-- Конец all classes -->
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- Membership prices -->
+						<div class="membershipPrices">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="blockHeaderTitle">
+										<span>membership prices</span>
+									</div>
+								</div>
+							</div>	
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="membershipPricesContent">
+										<span>25% discount for all members</span>
+										<span>Discount on services and treatments at the GymBase for all membership cards holders.</span>
+										<a href="#">more</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>         <!-- Конец MembershipPrices -->
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- Our trainers -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="blockHeaderTitle">
+									<span>our trainers</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="carouselBG">
+									<div class="carousel slide" id="carousel-one" data-ride="carousel" data-interval="6000" data-wrap="true" data-pause="hover">
+										<div class="carousel-inner">
+											<div class="item active">    <!-- 1-й слайд -->
+												<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+													<div class="slideLeftPart">
+														<img src="images/img1.jpg">
+														<span>ruby smith</span>
+														<span>spinning</span>
+														<span>Creating the perfect body is no small matter.</span>
+														<span class="heartLikeIcon">
+															<a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+															<a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+														</span>
+														<span class="faceTwitIcon">
+															<a href="#"><span class="icon-facebook2"></span></a>
+															<a href="#"><span class="icon-twitter2"></span></a>
+														</span>
+													</div>
+													<div class="marginBetweenSlideParts"> </div>
+												</div>
+												<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+													<div class="slideRightPart">
+														<img src="images/img5.jpg">
+														<span>john johan.</span>
+														<span>kik boksing</span>
+														<span>Creating the perfect body is no small matter.</span>
+														<span class="heartLikeIcon">
+															<a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+															<a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+														</span>
+														<span class="faceTwitIcon">
+															<a href="#"><span class="icon-facebook2"></span></a>
+															<a href="#"><span class="icon-twitter2"></span></a>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div class="item">                <!-- 2-й слайд -->
+												<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+													<div class="slideLeftPart">
+														<img src="images/img2.jpg">
+														<span>jenny siem.</span>
+														<span>pilates</span>
+														<span>Creating the perfect body is no small matter.</span>
+														<span class="heartLikeIcon">
+															<a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+															<a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+														</span>
+														<span class="faceTwitIcon">
+															<a href="#"><span class="icon-facebook2"></span></a>
+															<a href="#"><span class="icon-twitter2"></span></a>
+														</span>
+													</div>
+													<div class="marginBetweenSlideParts"> </div>
+												</div>
+												<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+													<div class="slideRightPart">
+														<img src="images/img6.jpg">
+														<span>vova stath.</span>
+														<span>boksing</span>
+														<span>Creating the perfect body is no small matter.</span>
+														<span class="heartLikeIcon">
+															<a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+															<a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+														</span>
+														<span class="faceTwitIcon">
+															<a href="#"><span class="icon-facebook2"></span></a>
+															<a href="#"><span class="icon-twitter2"></span></a>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div class="item">                  <!-- 3-й слайд -->
+												<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+													<div class="slideLeftPart">
+														<img src="images/img3.jpg">
+														<span>john broon</span>
+														<span>yoga</span>
+														<span>Creating the perfect body is no small matter.</span>
+														<span class="heartLikeIcon">
+															<a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+															<a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+														</span>
+														<span class="faceTwitIcon">
+															<a href="#"><span class="icon-facebook2"></span></a>
+															<a href="#"><span class="icon-twitter2"></span></a>
+														</span>
+													</div>
+													<div class="marginBetweenSlideParts"> </div>
+												</div>
+												<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+													<div class="slideRightPart">
+														<img src="images/img4.jpg">
+														<span>anna klich.</span>
+														<span>aerobics</span>
+														<span>Creating the perfect body is no small matter.</span>
+														<span class="heartLikeIcon">
+															<a href="#"><span class="glyphicon glyphicon-heart"></span></a>
+															<a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+														</span>
+														<span class="faceTwitIcon">
+															<a href="#"><span class="icon-facebook2"></span></a>
+															<a href="#"><span class="icon-twitter2"></span></a>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<a href="#carousel-one" class="carousel-control left" data-slide="prev">
+										<span class="glyphicon glyphicon-menu-left"></span>
+									</a>
+									<a href="#carousel-one" class="carousel-control right" data-slide="next">
+										<span class="glyphicon glyphicon-menu-right"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- Next events -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="blockHeaderTitle">
+									<span>next events</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="nextEventsBG">
+									<div class="carousel slide" data-ride="carousel" data-interval="8000" data-wrap="true" data-pause="hover">
+										<div class="carousel-inner">
+											<div class="item active">                                       <!-- 1-й слайд -->
+												<div class="row">
+													<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+														<div class="nextEventsWrap">
+															<div class="row">
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsImg">
+																		<span>26 gen, 2014</span>
+																		<img src="images/aerobika.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsText">
+																		<span>h.12.00 - h.13.00</span>
+																		<span>aerobics</span>
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<a href="#">booking</a>
+																	</div>
+																</div>
+																<div class="marginBetweenEvents"></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+														<div class="nextEventsWrap">
+															<div class="row">
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsImg">
+																		<span>26 gen, 2014</span>
+																		<img src="images/spin2.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsText">
+																		<span>h.11.00 - h.12.00</span>
+																		<span>spinning</span>
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<a href="#">booking</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="item">                                                         <!-- 2-й слайд -->
+												<div class="row">
+													<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+														<div class="nextEventsWrap">
+															<div class="row">
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsImg">
+																		<span>26 gen, 2014</span>
+																		<img src="images/pilates2.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsText">
+																		<span>h.10.00 - h.11.00</span>
+																		<span>pilates</span>
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<a href="#">booking</a>
+																	</div>
+																</div>
+																<div class="marginBetweenEvents"></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+														<div class="nextEventsWrap">
+															<div class="row">
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsImg">
+																		<span>26 gen, 2014</span>
+																		<img src="images/kikboksing.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+																	<div class="nextEventsText">
+																		<span>h.09.00 - h.10.00</span>
+																		<span>kik boxing</span>
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<a href="#">booking</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- From the Blog -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="blockHeaderTitle">
+									<span>from the blog</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="fromTheBlogBG">
+									<div class="carousel slide" data-ride="carousel" data-interval="10000" data-wrap="true" data-pause="hover">
+										<div class="carousel-inner">
+											<div class="item active">    <!-- 1-й слайд -->
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<div class="fromTheBlogWrap">
+															<div class="row">
+																<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+																	<div class="fromTheBlogFoto">
+																		<img src="images/img1.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+																	<div class="fromTheBlogMassage">
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<span>26 May, 2013</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<div class="fromTheBlogWrap">
+															<div class="row">
+																<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+																	<div class="fromTheBlogFoto">
+																		<img src="images/img2.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+																	<div class="fromTheBlogMassage">
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<span>26 May, 2013</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<div class="fromTheBlogWrap">
+															<div class="row">
+																<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+																	<div class="fromTheBlogFoto">
+																		<img src="images/img3.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+																	<div class="fromTheBlogMassage">
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<span>26 May, 2013</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="item">                <!-- 2-й слайд -->
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<div class="fromTheBlogWrap">
+															<div class="row">
+																<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+																	<div class="fromTheBlogFoto">
+																		<img src="images/img4.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+																	<div class="fromTheBlogMassage">
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<span>26 May, 2013</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<div class="fromTheBlogWrap">
+															<div class="row">
+																<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+																	<div class="fromTheBlogFoto">
+																		<img src="images/img5.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+																	<div class="fromTheBlogMassage">
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<span>26 May, 2013</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<div class="fromTheBlogWrap">
+															<div class="row">
+																<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+																	<div class="fromTheBlogFoto">
+																		<img src="images/img6.jpg">
+																	</div>
+																</div>
+																<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+																	<div class="fromTheBlogMassage">
+																		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+																		<span>26 May, 2013</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-0 col-lg-8">             <!-- Gallery -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="blockHeaderTitle visible-md visible-lg">
+									<span>gallery</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="galeryBGlg visible-md visible-lg">
+									<div class="carousel slide" id="carousel-two" data-ride="carousel" data-interval="6000" data-wrap="true" data-pause="hover">
+										<div class="carousel-inner">
+											<div class="item active">    <!-- 1-й слайд -->
+												<div class="galeryImgWrapLg">
+													<img src="images/imggalery1.jpg" alt="аэробика">
+												</div>
+											</div>
+											<div class="item">                <!-- 2-й слайд -->
+												<div class="galeryImgWrapLg">
+													<img src="images/imggalery2.jpg" alt="кикбоксинг">
+												</div>
+											</div>
+											<div class="item">                  <!-- 3-й слайд -->
+												<div class="galeryImgWrapLg">
+													<img src="images/imggalery3.jpg" alt="велосипедный спорт">
+												</div>
+											</div>
+											<div class="item">                  <!-- 4-й слайд -->
+												<div class="galeryImgWrapLg">
+													<img src="images/imggalery4.jpg" alt="боксерский зал">
+												</div>
+											</div>
+											<div class="item">                  <!-- 5-й слайд -->
+												<div class="galeryImgWrapLg">
+													<img src="images/imggalery5.jpg" alt="пилатес">
+												</div>
+											</div>
+										</div>
+									</div>
+									<a href="#carousel-two" class="carousel-control left" data-slide="prev">
+										<span class="glyphicon glyphicon-menu-left"></span>
+									</a>
+									<a href="#carousel-two" class="carousel-control right" data-slide="next">
+										<span class="glyphicon glyphicon-menu-right"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">             <!-- Partner -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="blockHeaderTitle">
+									<span>partner</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="partnerBG">
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<div class="partnerLogoImg">
+												<a href="#">
+													<img src="images/nike.png">
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<div class="partnerLogoImg">
+												<a href="#">
+													<img src="images/adidas.png">
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<div class="partnerLogoImg">
+												<a href="#">
+													<img src="images/puma.png">
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<div class="partnerLogoImg">
+												<a href="#">
+													<img src="images/reebok.png">
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<div class="partnerLogoImg">
+												<a href="#">
+													<img src="images/speedo.png">
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<div class="partnerLogoImg">
+												<a href="#">
+													<img src="images/lotto.png">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid mapBG">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">                                                             <!-- Map -->
+					<div class="shapeForMap">
+						<iframe class="hidden-xs" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.340836538692!2d30.468211500000002!3d50.4533775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce819e075739%3A0xe87220beac27f6ca!2z0LLRg9C7LiDQktCw0L3QtNC4INCS0LDRgdC40LvQtdCy0YHRjNC60L7RlywgNywg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1429991005452" width="100%" height="500" frameborder="0" style="border:0"></iframe>
+						<iframe class="visible-xs" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.170418269346!2d30.468211500000002!3d50.4533775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce819e075739%3A0xe87220beac27f6ca!2z0LLRg9C7LiDQktCw0L3QtNC4INCS0LDRgdC40LvQtdCy0YHRjNC60L7RlywgNywg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1429994213396" width="100%" height="290" frameborder="0" style="border:0"></iframe>
+						<div class="containerPositioningWrap">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 col-lg-4 col-lg-offset-8">
+										<div class="sheduleWrap">
+											<div class="shapeForShedule hidden-xs">
+												<span>opening <span>hours</span></span>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span> monday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>tuesday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>wednesday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>thursday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>friday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>saturday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>sunday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<span>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit.</span>
+												<span>Enjoy it!</span>
+											</div>
+											
+											<div class="shapeForSheduleXs visible-xs">
+												<span>opening <span>hours</span></span>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span> monday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>tuesday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>wednesday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>thursday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>friday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>saturday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<div class="shedulePoint">
+													<span>
+														<span class="glyphicon glyphicon-calendar"></span>
+														<span>sunday</span>
+													</span>
+													<span>h. 6:00 - h. 24:00</span>
+												</div>
+												<span>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit.</span>
+												<span>Enjoy it!</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">    <!-- Twitter box -->
+						<div class="twitterContentWrap">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="twitterIcon">
+										<span class="icon-twitter"></span>
+									</div>
+								</div>
+								<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+									<div class="twitterText">
+										<span>RT @collis: Trade growth ideas with other founders. Look for ways to cross promote. Small startups today may be big friends later.(9/10) <b>2 days ago.</b></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="footerTopBG">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">        <!-- Newslatter -->
+							<div class="newslatterWrap">
+								<span>NEWSLETTER SIGNUP</span>
+								<span>Sign up for our newsletter and get the latest news.</span>
+								<div class="newslatterForm">
+									<form>
+										<div class="form-group">
+											<label></label>
+											<input type="email" class="form-control" placeholder="Insert email">
+										</div>
+										<button type="submit" class="btn btn-danger">Submit email <span class="glyphicon glyphicon-menu-right"></span></button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">        <!-- Contact info -->
+							<div class="contactInfoWrap">
+								<img src="images/logo.png" alt="Логотип">
+								<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</span>
+								<span>Phone: <span>1-900-342-9876</span></span>
+								<span>e-mail: <span>info@gymsports.com</span></span>
+							</div>
+						</div>
+						<div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">        <!-- Footer menu -->
+							<div class="footerMenuWrap">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<div class="footerMenu">
+											<span>menu</span>
+											<div class="menuUnderlevel">
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> About</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Trainers</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Classes</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Princing</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Privacy</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Contact</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<div class="footerCommunity">
+											<span>community</span>
+											<div class="menuUnderlevel">
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Blog</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Forum</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Support</span>
+												</a>
+												<a href="#">
+													<span><span class="glyphicon glyphicon-menu-right"></span> Newsletter</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="copyrightBG">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">                                                            <!-- Phone number -->
+							<div class="copyright">
+								<span><span class="glyphicon glyphicon-copyright-mark"></span> 2013 GYMSports</span>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">                                                            <!-- Social icons -->
+							<div class="socialIcons">	
+								<a href="#"><span class="icon-feed2"></span></a>
+								<a href="#"><span class="icon-instagram"></span></a>
+								<a href="#"><span class="icon-tumblr2"></span></a>
+								<a href="#"><span class="icon-google-plus2"></span></a>
+								<a href="#"><span class="icon-pinterest2"></span></a>
+								<a href="#"><span class="icon-twitter2"></span></a>
+								<a href="#"><span class="icon-facebook2"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
